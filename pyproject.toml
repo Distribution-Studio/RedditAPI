@@ -1,0 +1,13 @@
+[project]
+name = "api"
+version = "0.1.0"
+description = "Reddit Listener API - Backend for Reddit content monitoring and alerting"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.116.1",
+    "supabase>=2.17.0",
+    "uvicorn>=0.35.0",
+    "python-jose[cryptography]>=3.3.0",
+    "python-multipart>=0.0.6",
+]
